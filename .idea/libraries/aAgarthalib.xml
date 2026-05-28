@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="aAgarthalib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/aAgarthalib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aCombatStamina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aLifeEssence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aMVdWPlaceholderAPI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aMythicMobs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aPlaceholderAPI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aSkillAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

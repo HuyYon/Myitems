@@ -1,0 +1,42 @@
+main: com.praya.myitems.MyItems
+name: MyItems
+version: 1.0.1
+author: Huyyon (updated for 1.21.4)
+api-version: 1.21
+description: Custom Item System with AgarthaLib
+softdepend: [PlaceholderAPI, MVdWPlaceholderAPI, MythicMobs]
+depend: [AgarthaLib]
+
+commands:
+  MyItems:
+    description: Main command for MyItems plugin
+    aliases: [mi, myitem, myitems, itemedit, ie]
+    
+permissions:
+  myitems.admin:
+    description: Gives access to everything!
+    children:
+      myitems.command.reload: true
+      myitems.command.save: true
+      myitems.command.remove: true
+      myitems.command.list: true
+      myitems.command.load: true
+      myitems.command.drop: true
+      myitems.command.amount: true
+      myitems.command.data: true
+      myitems.command.material: true
+      myitems.command.repair: true
+      myitems.command.name: true
+      myitems.command.lore: true
+      myitems.command.flag: true
+      myitems.command.enchant: true
+      myitems.command.unbreakable: true
+      myitems.command.attribute.stats: true
+      myitems.command.attribute.element: true
+      myitems.command.attribute.buff: true
+      myitems.command.attribute.debuff: true
+      myitems.command.attribute.nbt: true
+      myitems.command.attribute.power: true
+      myitems.command.attribute.ability: true
+      myitems.command.attribute.requirement: true
+      myitems.command.socket: true
